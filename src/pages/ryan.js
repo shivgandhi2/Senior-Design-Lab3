@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <main>
       <h1>Ryan</h1>
-      <Link to="/">Back</Link>
+      <Link to="/home">Back</Link>
       <p>Ryan's page.</p>
     </main>
   )
