@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 const IndexPage = () => {
   return (
     <main>
-      <h1>Senior Design Lab 3</h1>
+      <h1>Senior Design Lab3</h1>
       <Link to="/about">About</Link>
       <p>Need to add links for each member with pictures.</p>
     </main>
