@@ -6,10 +6,14 @@ const IndexPage = () => {
   return (
     <main>
       <h1>Senior Design Lab3</h1>
-      <Link to="/about">About</Link>
-      <p>Need to add links for each member with pictures.</p>
+      <Link to="/ryan">Ryan</Link>
+      <p> </p>
       {/*<Link to="/about2">About 2</Link>*/}
-      <Link to="/about2">About</Link>
+      <Link to="/weston">Weston</Link>
+      <p> </p>
+      <Link to="/noah">Noah</Link>
+      <p> </p>
+      <Link to="/shiv">Shiv</Link>
     </main>
   )
 }
