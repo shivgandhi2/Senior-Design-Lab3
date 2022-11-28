@@ -4,9 +4,9 @@ import { Link } from 'gatsby'
 const AboutPage = () => {
   return (
     <main>
-      <h1>Member 1</h1>
+      <h1>Ryan</h1>
       <Link to="/">Back</Link>
-      <p>Info about team member, will need to make 4 total.</p>
+      <p>Ryan's page.</p>
     </main>
   )
 }
