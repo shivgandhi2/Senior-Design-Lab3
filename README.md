@@ -30,7 +30,6 @@
 3.  **Open the code and start customizing!**
 
     Your site is now running at http://localhost:8000!
-   
     seniordesignlab3main45551.gatsbyjs.io
 
     Edit `src/pages/index.js` to see your site update in real-time!
