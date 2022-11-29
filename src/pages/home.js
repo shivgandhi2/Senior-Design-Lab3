@@ -1,10 +1,12 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-//import Layout from '../components/layout'
+import { StaticImage } from 'gatsby-plugin-image'
+import Layout from '../components/layout'
 const HomePage = () => {
   return (
     <main>
-      <h1>Team Members</h1>
+      <Layout pageTitle="Team Members"></Layout>
+      {/*<h1>Team Members</h1>*/}
       <Link to="/ryan">Ryan</Link>
       <p>Electrical Engineering</p>
       <p> </p>
@@ -17,8 +19,8 @@ const HomePage = () => {
       <Link to="/shiv">Shiv</Link>
       <p>Computer Science & Engineering</p>
       <p> </p>
-      <Link to="/">Back</Link>
-      <p>Back to Home Page.</p>
+      {/*<Link to="/">Back</Link>
+      <p>Back to Home Page.</p>*/}
     </main>
   )
 }
