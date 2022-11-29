@@ -6,5 +6,7 @@ module.exports = {
     title: `Senior Design Lab 3`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-image`
+  ],
 }
