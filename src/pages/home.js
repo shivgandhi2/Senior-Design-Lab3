@@ -16,6 +16,9 @@ const HomePage = () => {
       <p> </p>
       <Link to="/shiv">Shiv</Link>
       <p>Computer Science & Engineering</p>
+      <p> </p>
+      <Link to="/index">Back</Link>
+      <p>Back to Home Page.</p>
     </main>
   )
 }
