@@ -20,7 +20,6 @@ const IndexPage = () => (
     </main>
   )
 
-
 //export function Logo() {
 //  return <StaticImage src="../images/Team Shock Logo.PNG" alt="Team Logo" />
 //}
