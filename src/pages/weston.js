@@ -15,19 +15,19 @@ const AboutPage1 = () => {
 
           <StaticImage
       src="../images/flower.jpg"
-      width={900}
+      width={700}
       alt="weston pics1"
       />
 
 <StaticImage
       src="../images/horse.JPG"
-      width={900}
+      width={500}
       alt="weston pics2"
       />
 
 <StaticImage
       src="../images/rocks2.jpg"
-      width={900}
+      width={300}
       alt="weston pics3"
       />
 
