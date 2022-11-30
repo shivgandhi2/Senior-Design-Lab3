@@ -21,7 +21,7 @@ const AboutPage1 = () => {
 
 <StaticImage
       src="../images/horse.JPG"
-      width={290}
+      width={275}
       alt="weston pics2"
       />
 
