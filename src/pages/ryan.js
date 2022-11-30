@@ -30,7 +30,7 @@ const AboutPage = () => {
            and electrical equipment, as well as the pluming and fire alarm systems. I had a great time that
             summer and look forward to working with them again upon graduation in 2023. </p>
     <StaticImage
-    src="../images/Ryan Pic 1.png"
+    src="../images/Ryan Pic 1.jpg"
     width = {500}
     alt = "Ryan" 
     />
