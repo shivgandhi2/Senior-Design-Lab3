@@ -14,6 +14,12 @@ const AboutPage = () => {
         time playing sports but if I am feeling lazy, I enjoy playing the guitar, which is where 
         I became interested with the idea of electricity.</p>
 
+        <StaticImage
+    src="../images/Ryan Pic 1.png"
+    width = {500}
+    alt = "Football" 
+    />
+
       <p>ELECTRICAL ENGINEERING</p>
       <p>I started playing the guitar when I was about 15 and as I progressed, I became more and
          more interested on how a few nickel strings attached to a big piece of wood sounded so big when
@@ -32,11 +38,7 @@ const AboutPage = () => {
             summer and look forward to working with them again upon graduation in 2023. </p>
             <p> </p>
 
-    <StaticImage
-    src="../images/Ryan Pic 1.png"
-    width = {500}
-    alt = "Football" 
-    />
+ 
     </main>
   )
 }
