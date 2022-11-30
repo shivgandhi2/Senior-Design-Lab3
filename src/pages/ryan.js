@@ -6,7 +6,7 @@ const AboutPage = () => {
     <main>
       <h1>Ryan</h1>
       <Link to="/home">Back</Link>
-      <p>Ryan's page.</p>
+      <p>Ryan's page. test tese</p>
     </main>
   )
 }
