@@ -16,7 +16,13 @@ const AboutPage1 = () => {
           <StaticImage
       src="../images/flower.jpg"
       width={900}
-      alt="Team Logo"
+      alt="weston pics1"
+      />
+
+<StaticImage
+      src="../images/horse.JPG"
+      width={900}
+      alt="weston pics2"
       />
 
 
