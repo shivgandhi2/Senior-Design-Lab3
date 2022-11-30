@@ -5,7 +5,7 @@
   }
   
   .heading {
-    color: rgb(237, 76, 13);
+    color: rgb(19, 54, 196);
   }
   .nav-links {
     display: flex;
@@ -16,5 +16,5 @@
     padding-right: 2rem;
   }
   .nav-link-text {
-    color: rgb(150, 0, 0);
+    color: rgb(0, 7, 150);
   }
