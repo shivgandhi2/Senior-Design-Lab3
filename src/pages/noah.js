@@ -1,10 +1,14 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import * as containerStyles from "src/components/background.module.css"
+import backgroundImage from "gatsby-background-image"
 
 const AboutPage2 = () => {
   return (
     <main>
+      <backgroundImage
+      src="../images/WindowsXP.jpg"
+      alt="Background"
+      />
       <h1>Noah</h1>
       <Link to="/home">Back</Link>
       <p>Noah's page</p>
@@ -17,8 +21,5 @@ const AboutPage2 = () => {
 
 export const Head = () => <title>Member 1</title>
 
-//export default AboutPage2
+export default AboutPage2
 
-export default function backgroundImage({ children }) {
-  return <div className={containerStyles.container}>{children}</div>
-}
