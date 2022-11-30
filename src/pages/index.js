@@ -2,9 +2,9 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { graphql } from "gatsby"
-//import commentBox from 'commentbox.io';
+import commentBox from 'commentbox.io';
 
-//commentBox('my-5643242062217216-proj');
+commentBox('my-5643242062217216-proj');
 
 const IndexPage = () => (
     <main>
@@ -16,7 +16,7 @@ const IndexPage = () => (
       width={900}
       alt="Team Logo"
       />
-      {/*<div class="commentbox"></div>*/}
+      <div class="commentbox"></div>
     </main>
   )
 
