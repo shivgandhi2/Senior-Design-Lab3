@@ -1,6 +1,5 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import backgroundImage from "gatsby-background-image"
 
 const AboutPage2 = () => {
   return (
