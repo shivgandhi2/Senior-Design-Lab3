@@ -29,10 +29,11 @@ const AboutPage = () => {
           with many large businesses that are creating new buildings and arranges the layout of the mechanical
            and electrical equipment, as well as the pluming and fire alarm systems. I had a great time that
             summer and look forward to working with them again upon graduation in 2023. </p>
+            <p> </p>
     <StaticImage
     src="../images/Ryan Pic 1.jpg"
     width = {500}
-    alt = "Ryan" 
+    alt = "Football" 
     />
     </main>
   )
