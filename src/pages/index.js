@@ -14,7 +14,7 @@ const IndexPage = () => (
       width={900}
       alt="Team Logo"
       />
-     
+      
     </main>
   )
 
