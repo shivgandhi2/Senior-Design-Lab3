@@ -10,7 +10,7 @@ const AboutPage1 = () => {
         at the University of Iowa. My focus is on control systems. After high school, one of my jobs was working 
         in a manufacturing plant as a control room operator. This experience plus fixing/restoring an old motorcycle
          is what made me interested in pursuing a career in electrical engineering. When I am not busy with schoolwork,
-          I like to play basketball and guitar.</p>
+          I like to play basketball and guitar. I also enjoy photography and going on hiking trips with friends. I added some pictures I have taken in the past.</p>
     </main>
   )
 }
