@@ -26,7 +26,7 @@ const IndexPage = () => (
       <Link to="/home">Meet The Members</Link>
       <StaticImage
       src="../images/Team Shock Logo.PNG"
-      width={600}
+      width={900}
       alt="Team Logo"
       />
     </main>
