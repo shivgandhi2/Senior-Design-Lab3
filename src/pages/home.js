@@ -8,16 +8,24 @@ const HomePage = () => {
       <Layout pageTitle="Team Members"></Layout>
       {/*<h1>Team Members</h1>*/}
       <Link to="/ryan">Ryan</Link>
-      <p>Electrical Engineering</p>
+      <p>Electrical Engineering
+
+      </p>
       <p> </p>
       <Link to="/weston">Weston</Link>
-      <p>Electrical Engineering</p>
+      <p>Electrical Engineering
+
+      </p>
       <p> </p>
       <Link to="/noah">Noah</Link>
-      <p>Electrical Engineering</p>
+      <p>Electrical Engineering
+
+      </p>
       <p> </p>
       <Link to="/shiv">Shiv</Link>
-      <p>Computer Science & Engineering</p>
+      <p>Computer Science & Engineering
+        
+      </p>
       <p> </p>
       {/*<Link to="/">Back</Link>
       <p>Back to Home Page.</p>*/}
