@@ -10,7 +10,7 @@ const IndexPage = () => (
        <p>Team 11</p>
       <Link to="/home">Meet The Members</Link>
       <StaticImage
-      src="../images/Team Shock Logo.PNG"
+      src="../images/Team Shock Logo No Background.PNG"
       width={900}
       alt="Team Logo"
       />
