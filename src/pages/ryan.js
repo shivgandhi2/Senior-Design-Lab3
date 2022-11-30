@@ -23,6 +23,7 @@ const AboutPage = () => {
              pickups on my guitar where I learned how to solder, which was very fun. I have been replacing
               and rearranging all the guts in my guitars ever since. This hobby sparked my interest in electricity,
                and I decided to learn as much as I can about the topic.</p>
+
       <p>FUTURE PLANS</p>
       <p>Over the Summer of 2022, I worked for a company called Environmental Systems Design. They are
          an MEP engineering company based out of the Willis Tower in Chicago Illinois. The company works
@@ -30,8 +31,9 @@ const AboutPage = () => {
            and electrical equipment, as well as the pluming and fire alarm systems. I had a great time that
             summer and look forward to working with them again upon graduation in 2023. </p>
             <p> </p>
+
     <StaticImage
-    src="../images/Ryan Pic 1.jpg"
+    src="../images/Ryan Pic 1.png"
     width = {500}
     alt = "Football" 
     />
