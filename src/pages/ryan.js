@@ -31,7 +31,7 @@ const AboutPage = () => {
                and I decided to learn as much as I can about the topic.</p>
 
                <StaticImage
-    src="../images/SLASHPIC.png"
+    src="../images/SLASHPIC.PNG"
     width = {400}
     alt = "Guitar" 
     />
@@ -45,7 +45,7 @@ const AboutPage = () => {
             <p> </p>
 
      <StaticImage
-    src="../images/SearsTower.png"
+    src="../images/SearsTower.jpg"
     width = {450}
     alt = "Willis" 
     />
