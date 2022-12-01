@@ -5,7 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const AboutPage1 = () => {
   return (
     <main>
-       <h1 style={{color: "red"}}>Weston</h1>
+       <h1 style={{backgroundColor: "lightblue"}}>Weston</h1>
       
       <p>My name is Weston Yohe and I am currently a senior student in the electrical engineering program 
         at the University of Iowa. My focus is on control systems. After high school, one of my jobs was working 
