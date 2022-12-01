@@ -6,6 +6,7 @@ const AboutPage3 = () => {
   return (
     <main>
       <h1>Shiv</h1>
+      <Link to="/home">Back</Link>
       <p>ABOUT</p>
       <p>Hi, my name is Shiv Gandhi and I am a fourth year Computer Science & Engineering (CSE) student at UIowa. 
         I am from Des Plaines, Illinois (about 10 minutes from O'Hare Airport) and graduated from Elk Grove High School
@@ -32,7 +33,7 @@ const AboutPage3 = () => {
     alt = "Picture of a Lake in Galena, Illinois" 
     />
 
-<p>Future</p>
+<p>FUTURE</p>
       <p>While I am not entirely sure of what my future holds, I have a good idea.
         The Computer Science and Engineering fields are very broad, so it is difficult to 
         be general when lookign for a career. The aspect of CSE that I find the most appealing is Cyber Security,
