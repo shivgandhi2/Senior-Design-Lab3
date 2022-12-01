@@ -7,11 +7,13 @@ const HomePage = () => {
     <main>
       <Layout pageTitle="Team Members"></Layout>
       <p>
-      UIowa College of <a href="https://engineering.uiowa.edu/">Engineering</a>!
+      UIowa College of <a href="https://engineering.uiowa.edu/">Engineering</a>
       </p>
       {/*<h1>Team Members</h1>*/}
       <Link to="/ryan">Ryan</Link>
-      <p>Electrical Engineering</p>
+      <p>
+      <a href="https://ece.engineering.uiowa.edu/about/electrical-engineering-program">Electrical Engineering</a>
+      </p>
       <p> </p>
       <Link to="/weston">Weston</Link>
       <p>Electrical Engineering</p>
@@ -20,7 +22,9 @@ const HomePage = () => {
       <p>Electrical Engineering</p>
       <p> </p>
       <Link to="/shiv">Shiv</Link>
-      <p>Computer Science & Engineering</p>
+      <p>
+      <a href="https://ece.engineering.uiowa.edu/about/computer-science-and-engineering-program">Computer Science & Engineering</a>
+      </p>
       <p> </p>
       <StaticImage
       src="../images/Iowa Engineering.png"
