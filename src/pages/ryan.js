@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <main>
       <h1>Ryan</h1>
-      <Link to="/home">Back</Link>
+      
       <p>ABOUT</p>
       <p>Hi, my name is Ryan Rappold and I am a Senior Electrical Engineering 
         student at the University of Iowa. I graduated from Marist High School in 
@@ -49,7 +49,8 @@ const AboutPage = () => {
     width = {450}
     alt = "Willis" 
     />
- 
+ <p> </p>
+ <Link to="/home">Back to Team Members</Link>
     </main>
   )
 }
