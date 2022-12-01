@@ -3,32 +3,12 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import { graphql } from "gatsby"
 //import commentBox from 'commentbox.io';
-const commentBox = require('commentbox.io');
+//const commentBox = require('commentbox.io');
 
 //commentBox('my-project-id');
-commentBox('my-5643242062217216-proj');
+//commentBox('my-5643242062217216-proj');
 
-{/*
-class PageWithComments extends React.Component {
-    
-  componentDidMount() {
 
-      this.removeCommentBox = commentBox('5742455538319360-proj');
-  }
-
-  componentWillUnmount() {
-
-      this.removeCommentBox();
-  }
-  
-  render() {
-      
-      return (
-          <div className="commentbox" />
-      );
-  }
-}
-*/}
 
 const IndexPage = () => (
     <main>
@@ -41,7 +21,7 @@ const IndexPage = () => (
       alt="Team Logo"
       />
       
-      <div class="commentbox"></div>
+      {/*<div class="commentbox"></div>*/}
     </main>
   )
 
