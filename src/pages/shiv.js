@@ -7,10 +7,6 @@ const AboutPage3 = () => {
     <main>
       <h1>Shiv</h1>
       <Link to="/home">Back</Link>
-      <p>
-      {/* Note that external links still use `a` tags. */}
-      Follow me on <a href="https://twitter.com/gatsbyjs">Twitter</a>!
-      </p>
       <p>ABOUT</p>
       <p>Hi, my name is Shiv Gandhi and I am a fourth year Computer Science & Engineering (CSE) student at UIowa. 
         I am from Des Plaines, Illinois (about 10 minutes from O'Hare Airport) and graduated from Elk Grove High School

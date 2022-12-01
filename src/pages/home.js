@@ -6,6 +6,9 @@ const HomePage = () => {
   return (
     <main>
       <Layout pageTitle="Team Members"></Layout>
+      <p>
+      UIowa College of <a href="https://engineering.uiowa.edu/">Engineering</a>!
+      </p>
       {/*<h1>Team Members</h1>*/}
       <Link to="/ryan">Ryan</Link>
       <p>Electrical Engineering</p>
