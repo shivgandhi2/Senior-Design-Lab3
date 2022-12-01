@@ -38,7 +38,7 @@ const AboutPage = () => {
 
       <p>FUTURE PLANS</p>
       <p>Over the Summer of 2022, I worked for a company called Environmental Systems Design. They are
-         an MEP engineering company based out of the Willis Tower in Chicago Illinois. The company works
+         an MEP engineering company based out of the Sears Tower in Chicago Illinois. The company works
           with many large businesses that are creating new buildings and arranges the layout of the mechanical
            and electrical equipment, as well as the pluming and fire alarm systems. I had a great time that
             summer and look forward to working with them again upon graduation in 2023. </p>
