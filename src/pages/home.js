@@ -12,7 +12,7 @@ const HomePage = () => {
       {/*<h1>Team Members</h1>*/}
       <Link to="/ryan">Ryan</Link>
       <p>
-      <a href="https://ece.engineering.uiowa.edu/about/electrical-engineering-program">Electrical Engineering</a>
+      Electrical Engineering
       </p>
       <p> </p>
       <Link to="/weston">Weston</Link>
@@ -23,7 +23,7 @@ const HomePage = () => {
       <p> </p>
       <Link to="/shiv">Shiv</Link>
       <p>
-      <a href="https://ece.engineering.uiowa.edu/about/computer-science-and-engineering-program">Computer Science & Engineering</a>
+      Computer Science & Engineering
       </p>
       <p> </p>
       <StaticImage
@@ -31,6 +31,9 @@ const HomePage = () => {
       width={900}
       alt="Team Logo"
       />
+      <p>
+      <a href="https://ece.engineering.uiowa.edu/about/electrical-engineering-program">Electrical Engineering</a> <a href="https://ece.engineering.uiowa.edu/about/computer-science-and-engineering-program">Computer Science & Engineering</a>
+      </p>
     </main>
   )
 }
