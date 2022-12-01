@@ -31,7 +31,7 @@ const AboutPage = () => {
                and I decided to learn as much as I can about the topic.</p>
 
                <StaticImage
-    src="../images/SLASHPIC.PNG"
+    src="../images/SLASHPIC.jpg"
     width = {400}
     alt = "Guitar" 
     />
