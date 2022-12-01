@@ -30,6 +30,12 @@ const AboutPage = () => {
               and rearranging all the guts in my guitars ever since. This hobby sparked my interest in electricity,
                and I decided to learn as much as I can about the topic.</p>
 
+               <StaticImage
+    src="../images/SLASHPIC.png"
+    width = {400}
+    alt = "Guitar" 
+    />
+
       <p>FUTURE PLANS</p>
       <p>Over the Summer of 2022, I worked for a company called Environmental Systems Design. They are
          an MEP engineering company based out of the Willis Tower in Chicago Illinois. The company works
@@ -38,6 +44,11 @@ const AboutPage = () => {
             summer and look forward to working with them again upon graduation in 2023. </p>
             <p> </p>
 
+     <StaticImage
+    src="../images/SearsTower.png"
+    width = {450}
+    alt = "Willis" 
+    />
  
     </main>
   )
