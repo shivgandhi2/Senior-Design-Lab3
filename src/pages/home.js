@@ -38,7 +38,9 @@ const HomePage = () => {
       Computer Science & Engineering
       </p>
       <p> </p>
-
+      <p>
+      <a href="https://engineering.uiowa.edu/">src="../images/Iowa Engineering.png"</a>
+      </p>
       <p style = {photoStyle}> 
       <StaticImage
       src="../images/Iowa Engineering.png"
