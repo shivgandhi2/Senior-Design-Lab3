@@ -6,8 +6,8 @@ import CommentBox from "../components/comments"
 const AboutPage2 = () => {
   return (
     <main>
-      <h1>Noah</h1>
-      
+      <h1 style={{color: "blue"}}>Noah</h1>
+
       <p>ABOUT</p>
       <p>Hello, I am an electrical engineering student at UIowa with a focus on computer technology and embedded systems.
         I am originally from Plainfield, Illinois. In my spare time I like to play chess and play video games.
