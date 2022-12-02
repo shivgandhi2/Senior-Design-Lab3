@@ -1,32 +1,38 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
-import { graphql } from "gatsby"
 import CommentBox from "../components/comments"
-//const commentBox = require('commentbox.io');
 
-//commentBox('my-project-id');
-//commentBox('my-5643242062217216-proj');
+const headerStyle = {
+  
+  textAlign: 'center',
+  textDecorationLine: 'underline overline',
+  fontSize: '40',
+  backgroundColor: 'yellow'
+};
 
 
+
+const pictureSyle={
+  textAlign: 'center'
+};
 
 
 const IndexPage = () => (
     <main>
-      <h1>Team Shock</h1>
+      <h1 style={headerStyle}>Team Shock</h1>
        <p>Team 11</p>
-      <Link to="/home">Meet The Members</Link>
-      <StaticImage
+       <Link to="/home">Meet The Members</Link>
+       <p style={pictureSyle}>
+          <StaticImage
       src="../images/Team Shock Logo No Background.PNG"
       width={900}
       alt="Team Logo"
       />
+      </p>
+      
       
       <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
-     {/* {commentBox('5730512475783168-proj')} */}
-{/* <div className="commentbox"></div> */}
-{/* <CommentBox /> */}
-{/* <div className="commentbox" /> */}
 <CommentBox />
      </div>
     </main>
