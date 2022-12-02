@@ -36,8 +36,9 @@ const AboutPage1 = () => {
           <StaticImage
       src="../images/flower.jpg"
       
-      layout = "Constrained"
-      aspectRatio = {1}
+      width = {300}
+      height = {300}
+      
       alt="weston pics1"
       />
       </p>
@@ -46,7 +47,8 @@ const AboutPage1 = () => {
 <StaticImage
       src="../images/horse.JPG"
       
-      aspectRatio = {1}
+      width = {300}
+      height = {300}
       alt="weston pics2"
       />
 </p>
@@ -55,7 +57,8 @@ const AboutPage1 = () => {
 <StaticImage
       src="../images/rocks2.png"
       layout = "Fixed"
-      aspectRatio = {1}
+      width = {300}
+      height = {300}
       alt="weston pics3"
       />
       </p>
