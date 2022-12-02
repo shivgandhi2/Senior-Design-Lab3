@@ -23,8 +23,6 @@ const AboutPage3 = () => {
     <main>
       <h1 style={headerStyle}>Shiv</h1>
       <p> Senior Computer Science Engineer </p>
-      <p> shiv-gandhi@uiowa.edu </p>
-      
       <p>ABOUT</p>
       <p>Hi, my name is Shiv Gandhi and I am a fourth year Computer Science & Engineering (CSE) student at UIowa. 
         I am from Des Plaines, Illinois (about 10 minutes from O'Hare Airport) and graduated from Elk Grove High School
