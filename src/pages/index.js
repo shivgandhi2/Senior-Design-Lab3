@@ -21,8 +21,13 @@ const pictureSyle={
 const IndexPage = () => (
     <main>
       <h1 style={headerStyle}>Team Shock</h1>
-       <p>Team 11</p>
-       <Link to="/home">Meet The Members</Link>
+      <p style = {photoStyle}>
+      <p>Team 11</p>
+      </p>
+      <p style = {photoStyle}>
+      <Link to="/home">Meet The Members</Link>
+      </p>
+       
        <p style={pictureSyle}>
           <StaticImage
       src="../images/Team Shock Logo No Background.PNG"
