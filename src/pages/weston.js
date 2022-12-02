@@ -9,7 +9,7 @@ const headerStyle = {
   textAlign: 'center',
   textDecorationLine: 'underline',
   fontSize: '24',
-  backgroundColor: "grey"
+  backgroundColor: "lightcyan "
 };
 
 const pictureSyle={
@@ -28,7 +28,7 @@ const AboutPage1 = () => {
       
        
       
-      <p>My name is Weston Yohe and I am currently a senior student in the electrical engineering program 
+      <p style = {backgroundColor = "lightcyan"}>My name is Weston Yohe and I am currently a senior student in the electrical engineering program 
         at the University of Iowa. My focus is on control systems. After high school, one of my jobs was working 
         in a manufacturing plant as a control room operator. This experience plus fixing/restoring an old motorcycle
          is what made me interested in pursuing a career in electrical engineering. When I am not busy with schoolwork,
