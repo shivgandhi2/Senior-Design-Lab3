@@ -22,7 +22,9 @@ const HomePage = () => {
   return (
     <main>
       <h1 style={headerStyle}>Team Shock</h1>
+      <p style = {photoStyle}>
       <Link to="/">Back to Home Page</Link>
+      </p>
       <p>
       <a href="https://engineering.uiowa.edu/">UIowa College of Engineering</a>
       </p>
