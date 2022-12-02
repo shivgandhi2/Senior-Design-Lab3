@@ -16,7 +16,7 @@ const AboutPage1 = () => {
           <StaticImage
       src="../images/flower.jpg"
       
-      objectFit="cover"
+      width={300}
       
       alt="weston pics1"
       />
