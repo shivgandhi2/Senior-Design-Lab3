@@ -67,11 +67,11 @@ const AboutPage1 = () => {
       <p> </p>
     <Link to="/home">Return to home page</Link>
 
-    
+    <p style={pictureSyle}>
     <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
         <CommentBox />
      </div>
-
+     </p>
     </main>
   )
 }
