@@ -15,9 +15,7 @@ const AboutPage1 = () => {
 
           <StaticImage
       src="../images/flower.jpg"
-      
       width={300}
-      
       alt="weston pics1"
       />
 
@@ -33,7 +31,7 @@ const AboutPage1 = () => {
       alt="weston pics3"
       />
       
-<Link to="/home">Back</Link>
+      <Link to="/home">Back to Team Members</Link>
 
     </main>
   )
