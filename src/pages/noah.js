@@ -1,12 +1,13 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+import CommentBox from "../components/comments"
 
 const AboutPage2 = () => {
   return (
     <main>
       <h1>Noah</h1>
-      <Link to="/home">Back</Link>
+      
       <p>ABOUT</p>
       <p>Hello, I am an electrical engineering student at UIowa with a focus on computer technology and embedded systems.
         I am originally from Plainfield, Illinois. In my spare time I like to play chess and play video games.
@@ -42,6 +43,14 @@ const AboutPage2 = () => {
     width = {500}
     alt = "microcontroller picture" 
     />  
+
+    <p> </p>
+    <Link to="/home">Back</Link>
+
+    
+    <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
+        <CommentBox />
+     </div>
 
     </main>
 
