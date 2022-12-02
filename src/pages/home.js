@@ -4,6 +4,10 @@ import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
 import CommentBox from "../components/comments"
 
+const photoStyle = {
+  
+  textAlign: 'center',
+};
 
 const HomePage = () => {
   return (
@@ -32,11 +36,13 @@ const HomePage = () => {
       Computer Science & Engineering
       </p>
       <p> </p>
+      <p style = {photoStyle}> 
       <StaticImage
       src="../images/Iowa Engineering.png"
       width={900}
       alt="Team Logo"
       />
+      </p>
       <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
         <CommentBox />
      </div>
