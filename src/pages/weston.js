@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
-import CommentBox from "../components/comments"
 
 const AboutPage1 = () => {
   return (
@@ -17,7 +16,7 @@ const AboutPage1 = () => {
           <StaticImage
       src="../images/flower.jpg"
       
-      layout= "fullWidth"
+      placeholder = "blurred"
       
       alt="weston pics1"
       />
@@ -35,9 +34,7 @@ const AboutPage1 = () => {
       />
       
 <Link to="/home">Back</Link>
-<div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
-        <CommentBox />
-     </div>
+
     </main>
   )
 }
