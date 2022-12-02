@@ -51,7 +51,7 @@ const AboutPage3 = () => {
     />
 
     <p> </p>
-    <Link to="/home">Back</Link>
+    <Link to="/home">Back to Team Members</Link>
 
     
     <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
