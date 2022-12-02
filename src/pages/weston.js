@@ -37,7 +37,7 @@ const AboutPage1 = () => {
           <StaticImage
       src="../images/flower.jpg"
       
-      width = {300}
+      width = {400}
       
       alt="weston pics1"
       />
@@ -46,7 +46,7 @@ const AboutPage1 = () => {
       <p style={pictureSyle}>
 <StaticImage
       src="../images/horse.JPG"
-      width = {300}
+      width = {400}
       
       alt="weston pics2"
       />
@@ -55,7 +55,7 @@ const AboutPage1 = () => {
 <p style={pictureSyle}>
 <StaticImage
       src="../images/rocks2.png"
-      width = {300}
+      width = {400}
       
       alt="weston pics3"
       />
