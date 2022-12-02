@@ -9,6 +9,15 @@ const photoStyle = {
   textAlign: 'center',
 };
 
+const headerStyle = {
+  
+  textAlign: 'center',
+  textDecorationLine: 'underline',
+  fontSize: '40',
+  backgroundColor: 'yellow'
+};
+
+
 const HomePage = () => {
   return (
     <main>
@@ -43,7 +52,7 @@ const HomePage = () => {
       <StaticImage
       src="../images/Iowa Engineering.png"
       width={900}
-      alt="Iowa Eng"
+      alt="Team Logo"
       />
       </p>
       <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
