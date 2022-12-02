@@ -15,7 +15,7 @@ const AboutPage2 = () => {
       </p>
 
       <StaticImage
-    src="../images/NoahPortrait.jpg"
+    src="Senior-Design-Lab3\src\images\NoahPortrait.jpg"
     width = {500}
     alt = "Portrait from florida" 
     />
@@ -26,7 +26,7 @@ const AboutPage2 = () => {
       </p>
 
       <StaticImage
-    src="../images/NoahComputer.png"
+    src="Senior-Design-Lab3\src\images\NoahComputer.png"
     width = {500}
     alt = "computer picture" 
     />
@@ -38,7 +38,7 @@ const AboutPage2 = () => {
       </p>
 
       <StaticImage
-    src="../images/NoahMicrocontroller.jpg"
+    src="Senior-Design-Lab3\src\images\NoahMicrocontroller.jpg"
     width = {500}
     alt = "microcontroller picture" 
     />  
