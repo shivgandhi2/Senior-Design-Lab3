@@ -49,8 +49,12 @@ const AboutPage3 = () => {
     width = {500}
     alt = "Cyber Security" 
     />
-<Link to="/home">Back</Link>
-<div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
+
+    <p> </p>
+    <Link to="/home">Back</Link>
+
+    
+    <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
         <CommentBox />
      </div>
     </main>
