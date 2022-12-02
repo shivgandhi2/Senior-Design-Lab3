@@ -32,8 +32,10 @@ const HomePage = () => {
       <a href="https://ece.engineering.uiowa.edu/about/electrical-engineering-program">Electrical Engineering</a> <a href="https://ece.engineering.uiowa.edu/about/computer-science-and-engineering-program">Computer Science & Engineering</a>
       </p>
       <p> </p>
+      <p style = {photoStyle}>
       <Link to="/ryan">Ryan</Link>
-      <p>
+      </p>
+      <p style = {photoStyle}>
       Electrical Engineering ⬤ rrappold@uiowa.edu 
       </p>
       <p> </p>
