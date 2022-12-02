@@ -3,9 +3,17 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import CommentBox from "../components/comments"
 
+import BackgroundImage from 'gatsby-background-image'
+
+
 const AboutPage2 = () => {
   return (
     <main>
+      <BackgroundImage
+      src = "../images/WindowsXP.jpg"
+      />
+
+
       <h1>Noah</h1>
       
       <p>ABOUT</p>
