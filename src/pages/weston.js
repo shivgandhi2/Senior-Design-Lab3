@@ -65,7 +65,7 @@ const AboutPage1 = () => {
       </p>
 
       <p> </p>
-    <Link to="/Return to home page">Back</Link>
+    <Link to="/home">Return to home page</Link>
 
     
     <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
