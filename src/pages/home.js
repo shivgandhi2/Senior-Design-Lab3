@@ -24,18 +24,18 @@ const HomePage = () => {
       <p> </p>
       <Link to="/ryan">Ryan</Link>
       <p>
-      Electrical Engineering
+      Electrical Engineering ⬤ rrappold@uiowa.edu 
       </p>
       <p> </p>
       <Link to="/weston">Weston</Link>
-      <p>Electrical Engineering</p>
+      <p>Electrical Engineering ⬤ westonyohe@uiowa.edu</p>
       <p> </p>
       <Link to="/noah">Noah</Link>
-      <p>Electrical Engineering</p>
+      <p>Electrical Engineering ⬤ nabushanab@uiowa.edu</p>
       <p> </p>
       <Link to="/shiv">Shiv</Link>
       <p>
-      Computer Science & Engineering
+      Computer Science & Engineering ⬤ shivgandhi@uiowa.edu
       </p>
       <p> </p>
 

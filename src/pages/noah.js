@@ -11,8 +11,6 @@ const headerStyle = {
   backgroundColor: 'grey'
 };
 
-
-
 const pictureSyle={
   textAlign: 'center'
 };
