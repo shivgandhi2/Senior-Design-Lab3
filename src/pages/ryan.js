@@ -5,7 +5,7 @@ import CommentBox from "../components/comments"
 
 
 
-onst headerStyle = {
+const headerStyle = {
   
   textAlign: 'center',
   textDecorationLine: 'underline',
