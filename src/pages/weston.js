@@ -10,6 +10,10 @@ const headerStyle = {
   fontSize: '24'
 };
 
+const pictureSyle={
+  textAlign: 'center'
+};
+
 
 const AboutPage1 = () => {
   return (
@@ -27,14 +31,13 @@ const AboutPage1 = () => {
         in a manufacturing plant as a control room operator. This experience plus fixing/restoring an old motorcycle
          is what made me interested in pursuing a career in electrical engineering. When I am not busy with schoolwork,
           I like to play basketball and guitar. I also enjoy photography and going on hiking trips with friends. I added some pictures I have taken in the past.</p>
-
+        <p>
           <StaticImage
       src="../images/flower.jpg"
-      css={css`
-        border: 4px green dashed;
-      `}
+      width={300}
       alt="weston pics1"
       />
+      </p>
 
 <StaticImage
       src="../images/horse.JPG"
