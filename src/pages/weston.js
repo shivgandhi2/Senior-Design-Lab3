@@ -3,10 +3,14 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import CommentBox from "../components/comments"
 
+
+
 const AboutPage1 = () => {
   return (
+
+
     <main>
-       <h1 style={{color: "red"}}>Weston</h1>
+       <h1 style= "background-color: Aqua">Weston</h1>
       
       <p>My name is Weston Yohe and I am currently a senior student in the electrical engineering program 
         at the University of Iowa. My focus is on control systems. After high school, one of my jobs was working 
@@ -31,11 +35,14 @@ const AboutPage1 = () => {
       width={300}
       alt="weston pics3"
       />
-      <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
-      <CommentBox />
-   </div>
-      
-      <Link to="/home">Back to Team Members</Link>
+
+      <p> </p>
+    <Link to="/home">Back</Link>
+
+    
+    <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
+        <CommentBox />
+     </div>
 
     </main>
   )
