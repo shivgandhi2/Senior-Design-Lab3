@@ -8,7 +8,8 @@ const headerStyle = {
   
   textAlign: 'center',
   textDecorationLine: 'underline',
-  fontSize: '24'
+  fontSize: '24',
+  backgroundColor: "grey"
 };
 
 const pictureSyle={
