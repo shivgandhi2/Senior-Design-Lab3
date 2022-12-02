@@ -35,7 +35,7 @@ const AboutPage1 = () => {
         <p style={pictureSyle}>
           <StaticImage
       src="../images/flower.jpg"
-      layout = "fullwidth"
+      
       aspectRatio = {16/9}
       alt="weston pics1"
       />
@@ -53,7 +53,7 @@ const AboutPage1 = () => {
 <p style={pictureSyle}>
 <StaticImage
       src="../images/rocks2.png"
-      aspectRatio = {16/9}
+      aspectRatio = {1.33}
       alt="weston pics3"
       />
       </p>
