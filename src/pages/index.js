@@ -13,7 +13,7 @@ const headerStyle = {
 
 
 
-const pictureSyle={
+const photoStyle={
   textAlign: 'center'
 };
 
@@ -28,7 +28,7 @@ const IndexPage = () => (
       <Link to="/home">Meet The Members</Link>
       </p>
        
-       <p style={pictureSyle}>
+       <p style={photoStyle}>
           <StaticImage
       src="../images/Team Shock Logo No Background.PNG"
       width={900}
