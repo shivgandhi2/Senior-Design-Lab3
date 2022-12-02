@@ -21,7 +21,7 @@ const AboutPage1 = () => {
 
     
 
-    <main style={back}>
+    <main>
       
       <h1 style={headerStyle}>Weston</h1>
       
