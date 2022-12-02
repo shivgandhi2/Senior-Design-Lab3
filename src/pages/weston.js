@@ -11,7 +11,7 @@ const AboutPage1 = () => {
     
     <main>
       
-      <h1 style={{color: "aqua"}}>Weston</h1>
+      <h1 style={{color: "Aqua"}}>Weston</h1>
        
       
       <p>My name is Weston Yohe and I am currently a senior student in the electrical engineering program 
