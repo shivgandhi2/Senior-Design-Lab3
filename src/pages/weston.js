@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import CommentBox from "../components/comments"
 
+
 const headerStyle = {
   
   textAlign: 'center',
@@ -20,7 +21,7 @@ const AboutPage1 = () => {
 
     
 
-    <main>
+    <main style={back}>
       
       <h1 style={headerStyle}>Weston</h1>
       
@@ -45,7 +46,7 @@ const AboutPage1 = () => {
       <p style={pictureSyle}>
 <StaticImage
       src="../images/horse.JPG"
-      
+      width = {500}
       
       alt="weston pics2"
       />
@@ -54,8 +55,8 @@ const AboutPage1 = () => {
 <p style={pictureSyle}>
 <StaticImage
       src="../images/rocks2.png"
+      width = {500}
       
-     
       alt="weston pics3"
       />
       </p>
