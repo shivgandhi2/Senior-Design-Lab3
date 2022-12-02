@@ -3,13 +3,28 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import CommentBox from "../components/comments"
 
+
+
+onst headerStyle = {
+  
+  textAlign: 'center',
+  textDecorationLine: 'underline',
+  fontSize: '24',
+  backgroundColor: 'grey'
+};
+
+
+
+const pictureSyle={
+  textAlign: 'center'
+};
+
+
 const AboutPage = () => {
   return (
     <main>
-      
-body {
-	background-color: #FCD6CB;
-}
+
+
 
      
      <h1 style={{color: "blue"}}>Ryan</h1>
