@@ -24,13 +24,7 @@ const HomePage = () => {
       <h1 style={headerStyle}>Team Shock</h1>
       <p style = {photoStyle}>
       <Link to="/">Back to Home Page</Link>
-      </p>
-      <p style = {photoStyle}>
-      <a href="https://engineering.uiowa.edu/">UIowa College of Engineering</a>
-      </p>
-      <p style = {photoStyle}>
-      <a href="https://ece.engineering.uiowa.edu/about/electrical-engineering-program">Electrical Engineering</a> <a href="https://ece.engineering.uiowa.edu/about/computer-science-and-engineering-program">Computer Science & Engineering</a>
-      </p>
+      
       <p> </p>
       <p style = {photoStyle}>
       <Link to="/ryan">Ryan</Link>
@@ -56,7 +50,13 @@ const HomePage = () => {
       Computer Science & Engineering ⬤ shivgandhi@uiowa.edu
       </p>
       <p> </p>
-     
+      </p>
+      <p style = {photoStyle}>
+      <a href="https://engineering.uiowa.edu/">UIowa College of Engineering</a>
+      </p>
+      <p style = {photoStyle}>
+      <a href="https://ece.engineering.uiowa.edu/about/electrical-engineering-program">Electrical Engineering</a> <a href="https://ece.engineering.uiowa.edu/about/computer-science-and-engineering-program">Computer Science & Engineering</a>
+      </p>
       <p style = {photoStyle}> 
       <StaticImage
       src="../images/Iowa Engineering.png"
