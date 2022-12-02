@@ -22,10 +22,7 @@ const AboutPage = () => {
   return (
     <main>
 
-
-
-     
-     <h1 style={{color: "blue"}}>Ryan</h1>
+     <h1 style={headerStyle}>Ryan</h1>
      <p> Senior Electrical Engineer </p>
      <p> rrappold@uiowa.edu </p>
       
@@ -36,11 +33,13 @@ const AboutPage = () => {
         time playing sports but if I am feeling lazy, I enjoy playing the guitar, which is where 
         I became interested with the idea of electricity.</p>
 
+        <p style={pictureSyle}>
         <StaticImage
     src="../images/Ryan Pic 1.png"
     width = {500}
     alt = "Football" 
     />
+    </p>
 
       <p>ELECTRICAL ENGINEERING</p>
       <p>I started playing the guitar when I was about 15 and as I progressed, I became more and
@@ -52,11 +51,14 @@ const AboutPage = () => {
               and rearranging all the guts in my guitars ever since. This hobby sparked my interest in electricity,
                and I decided to learn as much as I can about the topic.</p>
 
+               <p style={pictureSyle}>
                <StaticImage
     src="../images/SLASHPIC.jpg"
     width = {400}
     alt = "Guitar" 
     />
+      </p>
+               
 
       <p>FUTURE PLANS</p>
       <p>Over the Summer of 2022, I worked for a company called Environmental Systems Design. They are
@@ -66,11 +68,13 @@ const AboutPage = () => {
             summer and look forward to working with them again upon graduation in 2023. </p>
             <p> </p>
 
-     <StaticImage
+      <p style={pictureSyle}>
+          <StaticImage
     src="../images/SearsTower.jpg"
     width = {450}
     alt = "Willis" 
     />
+      </p>
  <p> </p>
  <Link to="/home">Back to Team Members</Link>
 

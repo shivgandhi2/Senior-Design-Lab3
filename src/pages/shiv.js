@@ -9,7 +9,7 @@ const headerStyle = {
   textAlign: 'center',
   textDecorationLine: 'underline',
   fontSize: '24',
-  backgroundColor: 'purple'
+  backgroundColor: 'grey'
 };
 
 
