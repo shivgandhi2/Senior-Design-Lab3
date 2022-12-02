@@ -15,9 +15,9 @@ const AboutPage1 = () => {
 
           <StaticImage
       src="../images/flower.jpg"
-      
+      layout = "fixed"
       objectFit="cover"
-      
+      objectPosition="50% 50%"
       alt="weston pics1"
       />
 
