@@ -31,14 +31,15 @@ const AboutPage2 = () => {
         In the past I used to make music and even produced an album on spotify and apple music.
       </p >
 
+
       <p style={pictureSyle}>
           <StaticImage
-      src="../images/noah-portrait.png"
+      src="../images/noah-portrait.jpg"
       width = {400}
       alt="Portrait from florida"
       />
       </p>
-      
+
       <p>ECE</p>
       <p>As an electrical computer engineer, I enjoy the design and maintanence of computers. When I was younger
         I used to create small circuits and this is what initially got me interested in electrical engineering.
