@@ -51,13 +51,13 @@ const AboutPage1 = () => {
 <p style={pictureSyle}>
 <StaticImage
       src="../images/rocks2.png"
-      width={300}
+      aspectRatio = {16/9}
       alt="weston pics3"
       />
       </p>
 
       <p> </p>
-    <Link to="/home">Back</Link>
+    <Link to="/Return to home page">Back</Link>
 
     
     <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
