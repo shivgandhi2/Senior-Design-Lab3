@@ -3,15 +3,21 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import CommentBox from "../components/comments"
 
+const pStyle = {
+  fontSize: '15px',
+  textAlign: 'center'
+};
 
 
 const AboutPage1 = () => {
   return (
 
     
+
     <main>
       
-      <h1 style={{color: "blue"}}>Weston</h1>
+      <h1 style={pStyle}>Weston</h1>
+      
        
       
       <p>My name is Weston Yohe and I am currently a senior student in the electrical engineering program 
