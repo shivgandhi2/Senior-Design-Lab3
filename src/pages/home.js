@@ -21,7 +21,7 @@ const HomePage = () => {
       <p>
       <a href="https://ece.engineering.uiowa.edu/about/electrical-engineering-program">Electrical Engineering</a> <a href="https://ece.engineering.uiowa.edu/about/computer-science-and-engineering-program">Computer Science & Engineering</a>
       </p>
-      {/*<h1>Team Members</h1>*/}
+      <p> </p>
       <Link to="/ryan">Ryan</Link>
       <p>
       Electrical Engineering
@@ -38,9 +38,7 @@ const HomePage = () => {
       Computer Science & Engineering
       </p>
       <p> </p>
-      <p>
-      <a href="https://engineering.uiowa.edu/">src="../images/Iowa Engineering.png"</a>
-      </p>
+
       <p style = {photoStyle}> 
       <StaticImage
       src="../images/Iowa Engineering.png"
@@ -48,6 +46,7 @@ const HomePage = () => {
       alt="Team Logo"
       />
       </p>
+      <a href="https://github.com/shivgandhi2/Senior-Design-Lab3">Link to GitHub Repository</a>
       <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
         <CommentBox />
      </div>

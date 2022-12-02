@@ -6,7 +6,7 @@ import CommentBox from "../components/comments"
 const headerStyle = {
   
   textAlign: 'center',
-  textDecorationLine: 'underline overline',
+  textDecorationLine: 'underline',
   fontSize: '40',
   backgroundColor: 'yellow'
 };
