@@ -6,6 +6,8 @@ import CommentBox from "../components/comments"
 const AboutPage = () => {
   return (
     <main>
+
+<body style="background-color:aquamarine;"></body>
      
      <h1 style={{color: "blue"}}>Ryan</h1>
      <p> Senior Electrical Engineer </p>
