@@ -3,10 +3,14 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import CommentBox from "../components/comments"
 
+document.body.style.backgroundColor = "#F5F5DC";
+
+
 const AboutPage2 = () => {
   return (
     <main>
       <h1 style={{color: "blue"}}>Noah</h1>
+
 
       <p>ABOUT</p>
       <p>Hello, I am an electrical engineering student at UIowa with a focus on computer technology and embedded systems.
