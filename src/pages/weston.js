@@ -15,7 +15,9 @@ const AboutPage1 = () => {
 
           <StaticImage
       src="../images/flower.jpg"
-      width={300}
+      
+      layout= "fullWidth"
+      
       alt="weston pics1"
       />
 
