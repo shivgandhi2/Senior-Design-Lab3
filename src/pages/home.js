@@ -43,7 +43,7 @@ const HomePage = () => {
       <StaticImage
       src="../images/Iowa Engineering.png"
       width={900}
-      alt="Team Logo"
+      alt="Iowa Eng"
       />
       </p>
       <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
