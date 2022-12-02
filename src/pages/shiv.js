@@ -7,6 +7,8 @@ const AboutPage3 = () => {
   return (
     <main>
       <h1 style={{color: "teal"}}>Shiv</h1>
+      <p> Senior Computer Science Engineer </p>
+      <p> shiv-gandhi@uiowa.edu </p>
       
       <p>ABOUT</p>
       <p>Hi, my name is Shiv Gandhi and I am a fourth year Computer Science & Engineering (CSE) student at UIowa. 
