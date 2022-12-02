@@ -8,6 +8,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-background-image-es5',
+      options: {
+        // add your own characters to escape, replacing the default ':/'
+        specialChars: '/:',
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
