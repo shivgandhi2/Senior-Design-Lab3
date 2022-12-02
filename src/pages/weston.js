@@ -9,13 +9,10 @@ const headerStyle = {
   textAlign: 'center',
   textDecorationLine: 'underline',
   fontSize: '24',
-  backgroundColor: 'lightcyan'
+  backgroundColor: 'grey'
 };
 
-const bodyStyle = {
-  textAlign: 'center',
-  backgroundColor: 'lightcyan'
-};
+
 
 const pictureSyle={
   textAlign: 'center'
@@ -33,7 +30,7 @@ const AboutPage1 = () => {
       
        
       
-      <p style ={bodyStyle}>My name is Weston Yohe and I am currently a senior student in the electrical engineering program 
+      <p>My name is Weston Yohe and I am currently a senior student in the electrical engineering program 
         at the University of Iowa. My focus is on control systems. After high school, one of my jobs was working 
         in a manufacturing plant as a control room operator. This experience plus fixing/restoring an old motorcycle
          is what made me interested in pursuing a career in electrical engineering. When I am not busy with schoolwork,
