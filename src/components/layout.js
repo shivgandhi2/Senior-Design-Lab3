@@ -6,8 +6,6 @@ import {
   navLinks,
   navLinkItem,
   navLinkText,
-  header,
-  navContainer
 } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
