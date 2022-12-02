@@ -1,12 +1,13 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+import CommentBox from "../components/comments"
 
 const AboutPage3 = () => {
   return (
     <main>
-      <h1>Shiv</h1>
-      <Link to="/home">Back</Link>
+      <h1 style={{color: "teal"}}>Shiv</h1>
+      
       <p>ABOUT</p>
       <p>Hi, my name is Shiv Gandhi and I am a fourth year Computer Science & Engineering (CSE) student at UIowa. 
         I am from Des Plaines, Illinois (about 10 minutes from O'Hare Airport) and graduated from Elk Grove High School
@@ -46,6 +47,10 @@ const AboutPage3 = () => {
     width = {500}
     alt = "Cyber Security" 
     />
+<Link to="/home">Back</Link>
+<div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
+        <CommentBox />
+     </div>
     </main>
   )
 }

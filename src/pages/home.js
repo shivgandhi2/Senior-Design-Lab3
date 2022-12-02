@@ -2,12 +2,18 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import Layout from '../components/layout'
+import CommentBox from "../components/comments"
+
+
 const HomePage = () => {
   return (
     <main>
       <Layout pageTitle="Team Members"></Layout>
       <p>
-      UIowa College of <a href="https://engineering.uiowa.edu/">Engineering</a>
+      <a href="https://engineering.uiowa.edu/">UIowa College of Engineering</a>
+      </p>
+      <p>
+      <a href="https://ece.engineering.uiowa.edu/about/electrical-engineering-program">Electrical Engineering</a> <a href="https://ece.engineering.uiowa.edu/about/computer-science-and-engineering-program">Computer Science & Engineering</a>
       </p>
       {/*<h1>Team Members</h1>*/}
       <Link to="/ryan">Ryan</Link>
@@ -31,9 +37,9 @@ const HomePage = () => {
       width={900}
       alt="Team Logo"
       />
-      <p>
-      <a href="https://ece.engineering.uiowa.edu/about/electrical-engineering-program">Electrical Engineering</a> <a href="https://ece.engineering.uiowa.edu/about/computer-science-and-engineering-program">Computer Science & Engineering</a>
-      </p>
+      <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
+        <CommentBox />
+     </div>
     </main>
   )
 }
