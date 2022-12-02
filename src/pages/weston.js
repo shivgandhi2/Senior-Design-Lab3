@@ -45,7 +45,7 @@ const AboutPage1 = () => {
 <StaticImage
       src="../images/horse.JPG"
       
-      aspectRatio = {1.33}
+      aspectRatio = {9/16}
       alt="weston pics2"
       />
 </p>
