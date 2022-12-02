@@ -30,8 +30,7 @@ const IndexPage = () => (
       alt="Team Logo"
       />
       </p>
-      
-      
+      <a href="https://github.com/shivgandhi2/Senior-Design-Lab3">Link to GitHub Repository</a>
       <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
 <CommentBox />
      </div>
