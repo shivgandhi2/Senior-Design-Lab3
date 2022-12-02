@@ -33,12 +33,12 @@ const HomePage = () => {
       </p>
       <p> </p>
       <Link to="/ryan">Ryan</Link>
-      <p style = {photoStyle}>
+      <p>
       Electrical Engineering ⬤ rrappold@uiowa.edu 
       </p>
       <p> </p>
       <Link to="/weston">Weston</Link>
-      <p style = {photoStyle}>Electrical Engineering ⬤ westonyohe@uiowa.edu</p>
+      <p>Electrical Engineering ⬤ westonyohe@uiowa.edu</p>
       <p> </p>
       <Link to="/noah">Noah</Link>
       <p>Electrical Engineering ⬤ nabushanab@uiowa.edu</p>
