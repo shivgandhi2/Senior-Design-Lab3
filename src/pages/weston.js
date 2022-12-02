@@ -6,7 +6,7 @@ import CommentBox from "../components/comments"
 const headerStyle = {
   
   textAlign: 'center',
-  textDecorationLine: 'underline line-through',
+  textDecorationLine: 'underline',
   fontSize: '24'
 };
 
@@ -30,7 +30,9 @@ const AboutPage1 = () => {
 
           <StaticImage
       src="../images/flower.jpg"
-      width={300}
+      css={css`
+        border: 4px green dashed;
+      `}
       alt="weston pics1"
       />
 
