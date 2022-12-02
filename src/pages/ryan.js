@@ -5,7 +5,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const AboutPage = () => {
   return (
     <main>
-      <h1>Ryan</h1>
+      <h1 style="color:blue;">Ryan</h1>
       
       <p>ABOUT</p>
       <p>Hi, my name is Ryan Rappold and I am a Senior Electrical Engineering 
