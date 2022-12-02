@@ -3,10 +3,25 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import CommentBox from "../components/comments"
 
+
+const headerStyle = {
+  
+  textAlign: 'center',
+  textDecorationLine: 'underline',
+  fontSize: '24',
+  backgroundColor: 'black'
+};
+
+
+
+const pictureSyle={
+  textAlign: 'center'
+};
+
 const AboutPage3 = () => {
   return (
     <main>
-      <h1 style={{color: "teal"}}>Shiv</h1>
+      <h1 style={headerStyle}>Shiv</h1>
       <p> Senior Computer Science Engineer </p>
       <p> shiv-gandhi@uiowa.edu </p>
       
@@ -15,13 +30,17 @@ const AboutPage3 = () => {
         I am from Des Plaines, Illinois (about 10 minutes from O'Hare Airport) and graduated from Elk Grove High School
         in 2019. During my high school years, I played basketball for a couple years and participated in Robotics. During
         my free time, I like to stay active by playing basketball. For leisure, I like playing video games or going out and looking at nature</p>
+        
 
-        <StaticImage
-    src="../images/shivbball.png"
-    width = {500}
-    alt = "High School Basketball Days" 
-    />
+        <p style={pictureSyle}>
+          <StaticImage
+      src="../images/shivbball.png"
+      width = {400}
+      alt = "High School Basketball Days" 
+      />
+      </p>
 
+        
 <p>CSE</p>
       <p>As a CSE student, I am interacting with computers and technology daily, which I don't mind.
         What got me into Engineering and specifically the CS aspect was my father, who is an electrcial engineer.
@@ -30,11 +49,15 @@ const AboutPage3 = () => {
         worlds of Engineering. My favorite programming languages are Java, C++, and Python.
       </p>
 
-      <StaticImage
-    src="../images/shivwater.png"
-    width = {500}
-    alt = "Picture of a Lake in Galena, Illinois" 
-    />
+
+      <p style={pictureSyle}>
+          <StaticImage
+      src="../images/shivwater.png"
+      width = {400}
+      alt = "Picture of a Lake in Galena, Illinois" 
+      />
+      </p>
+
 
 <p>FUTURE</p>
       <p>While I am not entirely sure of what my future holds, I have a good idea.
@@ -44,11 +67,14 @@ const AboutPage3 = () => {
         and enjoyed gaining a greater understanding and skillset in it.
       </p>
 
-      <StaticImage
-    src="../images/shivcs.png"
-    width = {500}
-    alt = "Cyber Security" 
-    />
+      <p style={pictureSyle}>
+          <StaticImage
+      src="../images/shivcs.png"
+      width = {400}
+      alt = "Cyber Security" 
+      />
+      </p>
+      
 
     <p> </p>
     <Link to="/home">Back to Team Members</Link>
