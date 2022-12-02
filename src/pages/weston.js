@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+import CommentBox from "../components/comments"
 
 const AboutPage1 = () => {
   return (
@@ -30,6 +31,9 @@ const AboutPage1 = () => {
       width={300}
       alt="weston pics3"
       />
+      <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
+      <CommentBox />
+   </div>
       
       <Link to="/home">Back to Team Members</Link>
 
