@@ -39,17 +39,11 @@ const HomePage = () => {
       </p>
       <p> </p>
 
-      <Link to="/">
-      <img src="../images/Iowa Engineering.png" 
-      width = {900}
-      alt="Team Logo"/>
-      </Link>
-      
       <p style = {photoStyle}> 
       <StaticImage
       src="../images/Iowa Engineering.png"
       width={900}
-      alt="Team Logo"
+      alt="iowa eng"
       />
       </p>
       <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
