@@ -17,7 +17,7 @@ const AboutPage1 = () => {
       src="../images/flower.jpg"
       layout = "fixed"
       objectFit="cover"
-      objectPosition="50% 50%"
+      
       alt="weston pics1"
       />
 
