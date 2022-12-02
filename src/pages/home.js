@@ -12,7 +12,9 @@ const photoStyle = {
 const HomePage = () => {
   return (
     <main>
-      <Layout pageTitle="Team Members"></Layout>
+    <p style = {photoStyle}>
+      <Layout pageTitle="Meet Team Shock"></Layout>
+      </p>
       <p>
       <a href="https://engineering.uiowa.edu/">UIowa College of Engineering</a>
       </p>
@@ -36,6 +38,7 @@ const HomePage = () => {
       Computer Science & Engineering
       </p>
       <p> </p>
+
       <p style = {photoStyle}> 
       <StaticImage
       src="../images/Iowa Engineering.png"
