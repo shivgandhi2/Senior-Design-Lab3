@@ -3,8 +3,8 @@ import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
 import CommentBox from "../components/comments"
 
-const pStyle = {
-  fontSize: '15px',
+const headerStyle = {
+  
   textAlign: 'center'
 };
 
@@ -16,7 +16,7 @@ const AboutPage1 = () => {
 
     <main>
       
-      <h1 style={pStyle}>Weston</h1>
+      <h1 style={headerStyle}>Weston</h1>
       
        
       
