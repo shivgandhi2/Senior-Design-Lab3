@@ -44,6 +44,12 @@ const NotFoundPage = () => {
   )
 }
 
+function changeBackground(color) {
+  document.body.style.background = color;
+}
+
+window.addEventListener("load",function() { changeBackground('#F5F5DC') });
+
 export default NotFoundPage
 
 export const Head = () => <title>Not found</title>
