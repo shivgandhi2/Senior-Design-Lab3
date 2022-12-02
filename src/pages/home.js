@@ -39,6 +39,11 @@ const HomePage = () => {
       </p>
       <p> </p>
 
+      <Link to="/">
+      <img src="../images/Iowa Engineering.png" 
+      width = {900}
+      alt="Team Logo"/>
+      </Link>
       
       <p style = {photoStyle}> 
       <StaticImage
