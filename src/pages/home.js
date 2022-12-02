@@ -44,13 +44,15 @@ const HomePage = () => {
       </p>
       <p  style = {photoStyle}>Electrical Engineering ⬤ westonyohe@uiowa.edu</p>
       <p> </p>
+      <p style = {photoStyle}>
       <Link to="/noah">Noah</Link>
+      </p>
       <p  style = {photoStyle}>Electrical Engineering ⬤ nabushanab@uiowa.edu</p>
       <p> </p>
       <p style = {photoStyle}>
       <Link to="/shiv">Shiv</Link>
       </p>
-      <p>
+      <p style ={photoStyle}>
       Computer Science & Engineering ⬤ shivgandhi@uiowa.edu
       </p>
       <p> </p>
