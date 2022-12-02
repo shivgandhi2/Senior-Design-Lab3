@@ -16,7 +16,7 @@ const AboutPage1 = () => {
           <StaticImage
       src="../images/flower.jpg"
       
-      placeholder = "blurred"
+      objectFit="cover"
       
       alt="weston pics1"
       />
