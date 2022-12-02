@@ -8,6 +8,8 @@ const AboutPage = () => {
     <main>
      
      <h1 style={{color: "blue"}}>Ryan</h1>
+     <p> Senior Electrical Engineer </p>
+     <p> rrappold@uiowa.edu </p>
       
       <p>ABOUT</p>
       <p>Hi, my name is Ryan Rappold and I am a Senior Electrical Engineering 
