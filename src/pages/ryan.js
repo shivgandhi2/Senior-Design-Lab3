@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import { StaticImage } from 'gatsby-plugin-image'
+import CommentBox from "../components/comments"
 
 const AboutPage = () => {
   return (
@@ -52,6 +53,10 @@ const AboutPage = () => {
     />
  <p> </p>
  <Link to="/home">Back to Team Members</Link>
+
+ <div style={{padding:'5vh 5vw', borderTop:'0px solid', marginTop:'3rem'}}>
+        <CommentBox />
+     </div>
     </main>
   )
 }
