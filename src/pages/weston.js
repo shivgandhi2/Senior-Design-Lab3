@@ -12,6 +12,11 @@ const headerStyle = {
   backgroundColor: 'lightcyan'
 };
 
+const bodyStyle = {
+  textAlign: 'center',
+  backgroundColor: 'lightcyan'
+};
+
 const pictureSyle={
   textAlign: 'center'
 };
