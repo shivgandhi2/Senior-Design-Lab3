@@ -21,7 +21,7 @@ const pictureSyle={
 const AboutPage2 = () => {
   return (
     <main>
-      <h1 style={{color: "blue"}}>Noah</h1>
+      <h1 style={headerStyle}>Noah</h1>
 
 
       <p>ABOUT</p>
@@ -29,7 +29,9 @@ const AboutPage2 = () => {
         I am originally from Plainfield, Illinois. In my spare time I like to play chess and play video games.
         I enjoy working on broken laptops/computers as a hobby and sometimes can make some money through this.
         In the past I used to make music and even produced an album on spotify and apple music.
-      </p>
+      </p >
+
+      <p style={pictureSyle}></p>
 
       <StaticImage
     src="../images/noah-portrait.jpg"
@@ -42,6 +44,8 @@ const AboutPage2 = () => {
         I used to create small circuits and this is what initially got me interested in electrical engineering.
       </p>
 
+      <p style={pictureSyle}></p>
+
       <StaticImage
     src="../images/noah-computer.png"
     width = {500}
@@ -53,6 +57,8 @@ const AboutPage2 = () => {
         interest of mine. I enjoy the layout of computers and utilizing microcontrollers is a strong interest of mine. I dont think I could see myself being anything but 
         an engineer, but working as an IT technician would also be an interesting job. I would like to 
       </p>
+
+      <p style={pictureSyle}></p>
 
       <StaticImage
     src="../images/noah-micro.jpg"
